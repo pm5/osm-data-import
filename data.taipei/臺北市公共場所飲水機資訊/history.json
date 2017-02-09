@@ -1,0 +1,216 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ﻿行政區",
+    "columnName": "﻿行政區"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column 場所名稱 using expression grel:value + '飲水機'",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "場所名稱",
+    "expression": "grel:value + '飲水機'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column 場所名稱 to name",
+    "oldColumnName": "場所名稱",
+    "newColumnName": "name"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column 場所地址",
+    "columnName": "場所地址"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column 管理單位 to operator",
+    "oldColumnName": "管理單位",
+    "newColumnName": "operator"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column 連絡電話 to contact:phone",
+    "oldColumnName": "連絡電話",
+    "newColumnName": "contact:phone"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column contact:phone using expression grel:'+886 ' + value.replace('-', ' ')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "contact:phone",
+    "expression": "grel:'+886 ' + value.replace('-', ' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column 場所開放時間 to opening_hours",
+    "oldColumnName": "場所開放時間",
+    "newColumnName": "opening_hours"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column 飲水台數",
+    "columnName": "飲水台數"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column 設置地點",
+    "columnName": "設置地點"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column 緯度 to lat",
+    "oldColumnName": "緯度",
+    "newColumnName": "lat"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column 經度 to lon",
+    "oldColumnName": "經度",
+    "newColumnName": "lon"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column opening_hours using expression grel:value.replace('~', '-')",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "opening_hours",
+    "expression": "grel:value.replace('~', '-')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column opening_hours",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "opening_hours",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "週二至週六：08:30-21:00；週日、週一：09:00-17:00。"
+        ],
+        "to": "Tu-Sat 08:30-21:00; Su-Mo 09:00-17:00"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column opening_hours",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "opening_hours",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "週一至週五：08:00-17:00；周六、周日及假日：08:00-19:00；六月至八月每日：08:00-19:00，全年無休。"
+        ],
+        "to": "Mo-Fr 08:00-17:00; Sa-Su 08:00-19:00; PH 08:00-19:00; Jun-Aug 08:00-19:00"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column opening_hours",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "opening_hours",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Tu-Sat 08:30-21:00; Su-Mo 09:00-17:00"
+        ],
+        "to": "Tu-Sa 08:30-21:00; Su-Mo 09:00-17:00; PH 09:00-17:00"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column opening_hours",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "opening_hours",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Tu-Sa 08:30-21:00; Su-Mo 09:00-17:00; PH 09:00-17:00"
+        ],
+        "to": "Tu-Sa 08:30-21:00; Su-Mo 09:00-17:00"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column opening_hours",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "opening_hours",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "西大門:07:00-22:00、東大門、南大門、北大門:07:00-200:00、假日不開放"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name to description",
+    "oldColumnName": "name",
+    "newColumnName": "description"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column source at index 6 based on column lon using expression grel:'data.taipei'",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "source",
+    "columnInsertIndex": 6,
+    "baseColumnName": "lon",
+    "expression": "grel:'data.taipei'",
+    "onError": "set-to-blank"
+  }
+]
