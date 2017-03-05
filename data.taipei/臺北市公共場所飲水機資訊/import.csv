@@ -44,7 +44,6 @@ description,operator,contact:phone,opening_hours,lat,lon,source,amenity
 臺北市立圖書館大直分館飲水機,臺北市立圖書館大直分館,+886 02 25336535,Tu-Sa 08:30-21:00; Su-Mo 09:00-17:00,25.08185,121.546687,data.taipei,drinking_water
 臺北市立中山運動中心飲水機,臺北市立中山運動中心,+886 02 25811060,06:00-22:00,25.05489,121.521393,data.taipei,drinking_water
 臺北市立圖書館恆安民眾閱覽室飲水機,臺北市立圖書館恆安民眾閱覽室,+886 02 25935482,Tu-Sa 08:30-21:00; Su-Mo 09:00-17:00,25.064394,121.527136,data.taipei,drinking_water
-花博公園飲水機,工務局公園處圓山管理所,+886 02 21828886,00:00-24:00,121.52122,25.070663,data.taipei,drinking_water
 松江南京站飲水機,臺北大眾捷運股份有限公司,+886 02 21812345,06:00-23:00,25.051352,121.532918,data.taipei,drinking_water
 臺北市立圖書館中山分館飲水機,臺北市立圖書館中山分館,+886 02 25026442,Tu-Sa 08:30-21:00; Su-Mo 09:00-17:00,25.064426,121.533457,data.taipei,drinking_water
 臺北市立聯合醫院林森中醫院區飲水機,臺北市立聯合醫院林森中醫院區,+886 02 25916681#533,00:00-24:00,25.063291,121.525628,data.taipei,drinking_water
@@ -83,7 +82,6 @@ description,operator,contact:phone,opening_hours,lat,lon,source,amenity
 臺北市立圖書館西中分館飲水機,臺北市立圖書館西中分館,+886 02 87515497,Tu-Sa 08:30-21:00; Su-Mo 09:00-17:00,25.083659,121.562154,data.taipei,drinking_water
 臺北市立圖書館西湖分館飲水機,臺北市立圖書館西湖分館,+886 02 27973183,Tu-Sa 08:30-21:00; Su-Mo 09:00-17:00,25.07894,121.577561,data.taipei,drinking_water
 臺北市立圖書館內湖分館飲水機,臺北市立圖書館內湖分館,+886 02 27918772,Tu-Sa 08:30-21:00; Su-Mo 09:00-17:00,25.069239,121.589128,data.taipei,drinking_water
-大湖公園飲水機,工務局公園處圓山管理所,+886 02 25851430,00:00-24:00,121.603267,25.080472,data.taipei,drinking_water
 臺北市立內湖運動中心飲水機,臺北市立內湖運動中心,+886 02 26277776,06:00-22:00,25.078266,121.575229,data.taipei,drinking_water
 西湖站飲水機,臺北大眾捷運股份有限公司,+886 02 21812345,06:00-23:00,25.082022,121.567139,data.taipei,drinking_water
 港墘站飲水機,臺北大眾捷運股份有限公司,+886 02 21812345,06:00-23:00,25.080116,121.575722,data.taipei,drinking_water
@@ -106,8 +104,6 @@ description,operator,contact:phone,opening_hours,lat,lon,source,amenity
 木柵站飲水機,臺北大眾捷運股份有限公司,+886 02 21812345,06:00-23:00,24.998202,121.573381,data.taipei,drinking_water
 辛亥站飲水機,臺北大眾捷運股份有限公司,+886 02 21812345,06:00-23:00,25.00512,121.557015,data.taipei,drinking_water
 景華公園飲水機,工務局公園處南港管理所,+886 02 27884255,00:00-24:00,24.995231,121.5431,data.taipei,drinking_water
-景美運動公園飲水機,工務局公園處南港管理所,+886 02 27884255,00:00-24:00,121.544136,25.002735,data.taipei,drinking_water
-臺北市立動物園飲水機,臺北市立動物園,+886 02 29382300#630,09:00-17:00,121.5807,24.99859,data.taipei,drinking_water
 貓空纜車動物園站飲水機,臺北大眾捷運股份有限公司,+886 02 21812345,06:00-23:00,24.996052,121.576164,data.taipei,drinking_water
 動物園站飲水機,臺北大眾捷運股份有限公司,+886 02 21812345,06:00-23:00,24.998276,121.579897,data.taipei,drinking_water
 萬芳社區站飲水機,臺北大眾捷運股份有限公司,+886 02 21812345,06:00-23:00,24.998599,121.568384,data.taipei,drinking_water
@@ -198,4 +194,3 @@ description,operator,contact:phone,opening_hours,lat,lon,source,amenity
 北投公園飲水機,工務局公園處陽明山管理所,+886 02 28613368,00:00-24:00,25.136336,121.506229,data.taipei,drinking_water
 西本願寺飲水機,公園處園藝西區分隊,+886 02 23071429,00:00-24:00,25.040595,121.506882,data.taipei,drinking_water
 自來水園區飲水機,臺北自來水事業處,+886 02 83695104,08:00-18:00,25.013165,121.530215,data.taipei,drinking_water
-,,,,,,data.taipei,drinking_water
